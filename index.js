@@ -10,3 +10,7 @@ function justInvoke (arg) {
 function setThisWithApply (func, name, args){
     return func.apply(name, args);
 }
+
+function returnNewFunctionOf () {
+    
+}
