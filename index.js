@@ -1,6 +1,6 @@
 //Your code here
 function justInvoke (arg) {
         return function(){
-            return console.log(this);
+            return this;
         }.call(this);
  }
