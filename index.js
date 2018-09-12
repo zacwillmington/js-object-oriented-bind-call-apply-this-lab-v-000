@@ -1,7 +1,5 @@
 //Your code here
 function justInvoke (arg) {
     debugger;
-    return function(){
-        return this;
-    };
+        return arg.bind(this);
  }
