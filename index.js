@@ -6,3 +6,7 @@ function justInvoke (arg) {
  function setThisWithCall (func, name, age){
      return func.call(name, age);
  }
+
+function setThisWithApply (){
+    
+}
