@@ -7,6 +7,6 @@ function justInvoke (arg) {
      return func.call(name, age);
  }
 
-function setThisWithApply (){
-    
+function setThisWithApply (func, name, args){
+    return func.apply(name, args);
 }
