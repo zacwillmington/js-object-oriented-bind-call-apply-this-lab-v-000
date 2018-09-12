@@ -1,9 +1,7 @@
 //Your code here
-function justInvoke () {
+function justInvoke (arg) {
     debugger;
     return function(){
         return this;
     };
  }
-
- 
